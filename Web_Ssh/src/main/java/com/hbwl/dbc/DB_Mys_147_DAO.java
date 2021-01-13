@@ -10,7 +10,7 @@ public class DB_Mys_147_DAO {
 	private static SessionFactory sf = null;
 	// 第一次加载时静态块，且执行一次
 	static {
-		cfg = new Configuration().configure("com/hbwl/cfg/xml/hibernate.cfg_Mys_147.xml");
+		cfg = new Configuration().configure("hibernate.cfg_Mys_147.xml");
 		sf = cfg.buildSessionFactory();
 	}
 

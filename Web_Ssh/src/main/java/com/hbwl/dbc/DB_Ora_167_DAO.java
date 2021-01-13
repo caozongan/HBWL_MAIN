@@ -10,7 +10,7 @@ public class DB_Ora_167_DAO {
 	private static SessionFactory sf = null;
 	// 第一次加载时静态块，且执行一次
 	static {
-		cfg = new Configuration().configure("com/hbwl/cfg/xml/hibernate.cfg_Ora_167.xml");
+		cfg = new Configuration().configure("hibernate.cfg_Ora_167.xml");
 		sf = cfg.buildSessionFactory();
 	}
 

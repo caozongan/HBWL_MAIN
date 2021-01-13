@@ -8,9 +8,6 @@
     <artifactId>HBWL_MAIN</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>webssh</module>
-    </modules>
     <dependencies>
     
         <!-- log4j 日志 -->
@@ -27,16 +24,17 @@
             <scope>provided</scope>
         </dependency>
         <!-- MySQL驱动 -->
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.24</version>
+            <version>5.1.19</version>
         </dependency>
         <!-- mchange C3P0 数据源 -->
         <dependency>
-            <groupId>com.mchange</groupId>
+            <groupId>c3p0</groupId>
             <artifactId>c3p0</artifactId>
-            <version>0.9.5-pre2</version>
+            <version>0.9.1.2</version>
         </dependency>
         <!-- junit -->
         <dependency>

@@ -9,7 +9,7 @@ public class StudyTest {
     public static void main(String[] args) {
         System.out.println("学习！！！");
         Hello hello = new Hello();
-        //hello.sayHello("cza");
+        /* hello.sayHello("cza"); */
         System.out.println(hello.sayHello("cza"));
 
     }

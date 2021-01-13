@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+ 	<!-- 第一部分：数据库连接（必要）  -->
+	<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+	<property name="hibernate.connection.url">jdbc:oracle:thin:@10.142.3.147:11521:hbwlweb</property>
+	<property name="hibernate.connection.username">hbwl</property>
+	<property name="hibernate.connection.password">lwbh</property>
+	<!-- 第二部分：扩展参数  （可选）-->
+	<!-- 数据库方言 -->
+	<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+	<!-- 注意使用sf.getCurrentSession()，需添加 -->
+	<property name="current_session_context_class">thread</property>
+	<!-- 是否在控制台输出生成的sql语句 （默认为false） -->
+	<property name="hibernate.show_sql">true</property>
+	<!-- 是否在控制台格式化sql语句 （默认为false） -->
+	<property name="hibernate.format_sql">true</property>
+	<!-- 第三部分：映射资源-->
+	<!--<mapping resource="com/hbwl/pojo/oracle/Dept.hbm.xml"/>
+	<mapping resource="com/hbwl/pojo/oracle/Dept2.hbm.xml"/>
+	<mapping resource="com/hbwl/pojo/oracle/Emp.hbm.xml"/>
+	<mapping resource="com/hbwl/pojo/oracle/Emp2.hbm.xml"/>
+	<mapping resource="com/hbwl/pojo/oracle/Users1.hbm.xml"/>-->
+	<!-- 第四部分：使用连接池 -->
+	</session-factory>
+</hibernate-configuration>

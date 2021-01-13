@@ -20,6 +20,24 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+        <!-- 数据库驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.24</version>
+        </dependency>
+        <!--Mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2 -Dpackaging=jar  -Dfile=d:\Java\db_jar\ojdbc6.jar-->
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.1.1</version>
+        </dependency>
+        <!-- 数据库驱动 -->
 
 
     </dependencies>

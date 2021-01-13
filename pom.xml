@@ -10,8 +10,7 @@
     <version>1.0.1</version>
     <modules>
         <module>Study</module>
-        <module>WebSsh</module>
-
+        <module>Web_Ssh</module>
     </modules>
     <dependencies>
 

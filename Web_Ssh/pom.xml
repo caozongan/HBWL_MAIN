@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>WebSsh</artifactId>
+    <artifactId>Web_Ssh</artifactId>
     <packaging>war</packaging>
 
-    <name>WebSsh Maven Webapp</name>
+    <name>Web_Ssh Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -23,17 +23,16 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>-->
-
+        </dependency>
     </dependencies>
 
     <build>
-        <finalName>WebSsh</finalName>
+        <finalName>Web_Ssh</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>

@@ -1,4 +1,4 @@
-package com.hbwl.test;
+package com.hbwl.bean;
 
 /**
  * Created by cza 2021-01-13 9:37

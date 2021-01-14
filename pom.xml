@@ -12,6 +12,8 @@
         <module>Study</module>
         <module>Web_Ssh</module>
         <module>Web_Ssm</module>
+        <module>WebSsh</module>
+        <module>WebSsm</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

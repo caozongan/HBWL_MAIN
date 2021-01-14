@@ -11,7 +11,13 @@
     <modules>
         <module>Study</module>
         <module>Web_Ssh</module>
+        <module>Web_Ssm</module>
     </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
     <dependencies>
 
         <dependency>

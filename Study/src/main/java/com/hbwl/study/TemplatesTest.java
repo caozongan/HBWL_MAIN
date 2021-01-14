@@ -16,7 +16,13 @@ public class TemplatesTest {
     private static final int prsf=0;
     private static final Customer cust=new Customer();
     private static final Station station=new Station();
-    
+    //变形psf
+    public static final int NUM=1;
+    //变形psfi
+    public static final int numi=1;
+    //变形psfs
+    public static final String s="dd";
+
     
     //模板001：psvm
     public static void main(String[] args) {

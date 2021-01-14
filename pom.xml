@@ -10,8 +10,6 @@
     <version>1.0.1</version>
     <modules>
         <module>Study</module>
-        <module>Web_Ssh</module>
-        <module>Web_Ssm</module>
         <module>WebSsh</module>
         <module>WebSsm</module>
     </modules>
@@ -34,7 +32,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.24</version>
         </dependency>
-        <!--Mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2 -Dpackaging=jar  -Dfile=d:\Java\db_jar\ojdbc6.jar-->
+        <!--Mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar  -Dfile=d:\Java\db_jar\ojdbc6.jar-->
         <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6</artifactId>

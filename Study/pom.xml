@@ -18,6 +18,12 @@
             <version>1.0.1</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.hbwl</groupId>
+            <artifactId>Web_Ssh</artifactId>
+            <version>1.0.1</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 
